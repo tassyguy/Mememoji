@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4A8162D22E4D0C400BF0781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A8162C22E4D0C400BF0781 /* AppDelegate.swift */; };
+		B4A8162F22E4D0C400BF0781 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A8162E22E4D0C400BF0781 /* FirstViewController.swift */; };
+		B4A8163122E4D0C400BF0781 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A8163022E4D0C400BF0781 /* SecondViewController.swift */; };
+		B4A8163422E4D0C400BF0781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A8163222E4D0C400BF0781 /* Main.storyboard */; };
+		B4A8163622E4D0D400BF0781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A8163522E4D0D400BF0781 /* Assets.xcassets */; };
+		B4A8163922E4D0D400BF0781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A8163722E4D0D400BF0781 /* LaunchScreen.storyboard */; };
+		B4A8164422E4D0D500BF0781 /* MememojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A8164322E4D0D500BF0781 /* MememojiTests.swift */; };
+		B4A8164F22E4D0D500BF0781 /* MememojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A8164E22E4D0D500BF0781 /* MememojiUITests.swift */; };
+		B4A8166322E4D23200BF0781 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A8166222E4D23200BF0781 /* Messages.framework */; };
+		B4A8166622E4D23300BF0781 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A8166522E4D23300BF0781 /* MessagesViewController.swift */; };
+		B4A8166922E4D23300BF0781 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A8166722E4D23300BF0781 /* MainInterface.storyboard */; };
+		B4A8166B22E4D23400BF0781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A8166A22E4D23400BF0781 /* Assets.xcassets */; };
+		B4A8166F22E4D23500BF0781 /* Mememoji for iMessage.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B4A8166022E4D23200BF0781 /* Mememoji for iMessage.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4A8164022E4D0D400BF0781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4A8162122E4D0C300BF0781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4A8162822E4D0C300BF0781;
+			remoteInfo = Mememoji;
+		};
+		B4A8164B22E4D0D500BF0781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4A8162122E4D0C300BF0781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4A8162822E4D0C300BF0781;
+			remoteInfo = Mememoji;
+		};
+		B4A8166D22E4D23500BF0781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4A8162122E4D0C300BF0781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4A8165F22E4D23200BF0781;
+			remoteInfo = "Mememoji for iMessage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B4A8167322E4D23500BF0781 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B4A8166F22E4D23500BF0781 /* Mememoji for iMessage.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B4A8162922E4D0C400BF0781 /* Mememoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mememoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A8162C22E4D0C400BF0781 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4A8162E22E4D0C400BF0781 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B4A8163022E4D0C400BF0781 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B4A8163322E4D0C400BF0781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4A8163522E4D0D400BF0781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4A8163822E4D0D400BF0781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4A8163A22E4D0D400BF0781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A8163F22E4D0D400BF0781 /* MememojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MememojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A8164322E4D0D500BF0781 /* MememojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MememojiTests.swift; sourceTree = "<group>"; };
+		B4A8164522E4D0D500BF0781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A8164A22E4D0D500BF0781 /* MememojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MememojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A8164E22E4D0D500BF0781 /* MememojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MememojiUITests.swift; sourceTree = "<group>"; };
+		B4A8165022E4D0D500BF0781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A8166022E4D23200BF0781 /* Mememoji for iMessage.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mememoji for iMessage.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A8166222E4D23200BF0781 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		B4A8166522E4D23300BF0781 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		B4A8166822E4D23300BF0781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		B4A8166A22E4D23400BF0781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4A8166C22E4D23500BF0781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4A8162622E4D0C300BF0781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A8163C22E4D0D400BF0781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A8164722E4D0D500BF0781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A8165D22E4D23200BF0781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A8166322E4D23200BF0781 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4A8162022E4D0C300BF0781 = {
+			isa = PBXGroup;
+			children = (
+				B4A8162B22E4D0C400BF0781 /* Mememoji */,
+				B4A8164222E4D0D400BF0781 /* MememojiTests */,
+				B4A8164D22E4D0D500BF0781 /* MememojiUITests */,
+				B4A8166422E4D23300BF0781 /* Mememoji for iMessage */,
+				B4A8166122E4D23200BF0781 /* Frameworks */,
+				B4A8162A22E4D0C400BF0781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4A8162A22E4D0C400BF0781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4A8162922E4D0C400BF0781 /* Mememoji.app */,
+				B4A8163F22E4D0D400BF0781 /* MememojiTests.xctest */,
+				B4A8164A22E4D0D500BF0781 /* MememojiUITests.xctest */,
+				B4A8166022E4D23200BF0781 /* Mememoji for iMessage.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4A8162B22E4D0C400BF0781 /* Mememoji */ = {
+			isa = PBXGroup;
+			children = (
+				B4A8162C22E4D0C400BF0781 /* AppDelegate.swift */,
+				B4A8162E22E4D0C400BF0781 /* FirstViewController.swift */,
+				B4A8163022E4D0C400BF0781 /* SecondViewController.swift */,
+				B4A8163222E4D0C400BF0781 /* Main.storyboard */,
+				B4A8163522E4D0D400BF0781 /* Assets.xcassets */,
+				B4A8163722E4D0D400BF0781 /* LaunchScreen.storyboard */,
+				B4A8163A22E4D0D400BF0781 /* Info.plist */,
+			);
+			path = Mememoji;
+			sourceTree = "<group>";
+		};
+		B4A8164222E4D0D400BF0781 /* MememojiTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4A8164322E4D0D500BF0781 /* MememojiTests.swift */,
+				B4A8164522E4D0D500BF0781 /* Info.plist */,
+			);
+			path = MememojiTests;
+			sourceTree = "<group>";
+		};
+		B4A8164D22E4D0D500BF0781 /* MememojiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4A8164E22E4D0D500BF0781 /* MememojiUITests.swift */,
+				B4A8165022E4D0D500BF0781 /* Info.plist */,
+			);
+			path = MememojiUITests;
+			sourceTree = "<group>";
+		};
+		B4A8166122E4D23200BF0781 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4A8166222E4D23200BF0781 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4A8166422E4D23300BF0781 /* Mememoji for iMessage */ = {
+			isa = PBXGroup;
+			children = (
+				B4A8166522E4D23300BF0781 /* MessagesViewController.swift */,
+				B4A8166722E4D23300BF0781 /* MainInterface.storyboard */,
+				B4A8166A22E4D23400BF0781 /* Assets.xcassets */,
+				B4A8166C22E4D23500BF0781 /* Info.plist */,
+			);
+			path = "Mememoji for iMessage";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4A8162822E4D0C300BF0781 /* Mememoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A8165322E4D0D500BF0781 /* Build configuration list for PBXNativeTarget "Mememoji" */;
+			buildPhases = (
+				B4A8162522E4D0C300BF0781 /* Sources */,
+				B4A8162622E4D0C300BF0781 /* Frameworks */,
+				B4A8162722E4D0C300BF0781 /* Resources */,
+				B4A8167322E4D23500BF0781 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4A8166E22E4D23500BF0781 /* PBXTargetDependency */,
+			);
+			name = Mememoji;
+			productName = Mememoji;
+			productReference = B4A8162922E4D0C400BF0781 /* Mememoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4A8163E22E4D0D400BF0781 /* MememojiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A8165622E4D0D500BF0781 /* Build configuration list for PBXNativeTarget "MememojiTests" */;
+			buildPhases = (
+				B4A8163B22E4D0D400BF0781 /* Sources */,
+				B4A8163C22E4D0D400BF0781 /* Frameworks */,
+				B4A8163D22E4D0D400BF0781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4A8164122E4D0D400BF0781 /* PBXTargetDependency */,
+			);
+			name = MememojiTests;
+			productName = MememojiTests;
+			productReference = B4A8163F22E4D0D400BF0781 /* MememojiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4A8164922E4D0D500BF0781 /* MememojiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A8165922E4D0D500BF0781 /* Build configuration list for PBXNativeTarget "MememojiUITests" */;
+			buildPhases = (
+				B4A8164622E4D0D500BF0781 /* Sources */,
+				B4A8164722E4D0D500BF0781 /* Frameworks */,
+				B4A8164822E4D0D500BF0781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4A8164C22E4D0D500BF0781 /* PBXTargetDependency */,
+			);
+			name = MememojiUITests;
+			productName = MememojiUITests;
+			productReference = B4A8164A22E4D0D500BF0781 /* MememojiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B4A8165F22E4D23200BF0781 /* Mememoji for iMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A8167022E4D23500BF0781 /* Build configuration list for PBXNativeTarget "Mememoji for iMessage" */;
+			buildPhases = (
+				B4A8165C22E4D23200BF0781 /* Sources */,
+				B4A8165D22E4D23200BF0781 /* Frameworks */,
+				B4A8165E22E4D23200BF0781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mememoji for iMessage";
+			productName = "Mememoji for iMessage";
+			productReference = B4A8166022E4D23200BF0781 /* Mememoji for iMessage.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4A8162122E4D0C300BF0781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Simon Phillips";
+				TargetAttributes = {
+					B4A8162822E4D0C300BF0781 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B4A8163E22E4D0D400BF0781 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B4A8162822E4D0C300BF0781;
+					};
+					B4A8164922E4D0D500BF0781 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B4A8162822E4D0C300BF0781;
+					};
+					B4A8165F22E4D23200BF0781 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B4A8162422E4D0C300BF0781 /* Build configuration list for PBXProject "Mememoji" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4A8162022E4D0C300BF0781;
+			productRefGroup = B4A8162A22E4D0C400BF0781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4A8162822E4D0C300BF0781 /* Mememoji */,
+				B4A8163E22E4D0D400BF0781 /* MememojiTests */,
+				B4A8164922E4D0D500BF0781 /* MememojiUITests */,
+				B4A8165F22E4D23200BF0781 /* Mememoji for iMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4A8162722E4D0C300BF0781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A8163922E4D0D400BF0781 /* LaunchScreen.storyboard in Resources */,
+				B4A8163622E4D0D400BF0781 /* Assets.xcassets in Resources */,
+				B4A8163422E4D0C400BF0781 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A8163D22E4D0D400BF0781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A8164822E4D0D500BF0781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A8165E22E4D23200BF0781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A8166B22E4D23400BF0781 /* Assets.xcassets in Resources */,
+				B4A8166922E4D23300BF0781 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4A8162522E4D0C300BF0781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A8163122E4D0C400BF0781 /* SecondViewController.swift in Sources */,
+				B4A8162D22E4D0C400BF0781 /* AppDelegate.swift in Sources */,
+				B4A8162F22E4D0C400BF0781 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A8163B22E4D0D400BF0781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A8164422E4D0D500BF0781 /* MememojiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A8164622E4D0D500BF0781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A8164F22E4D0D500BF0781 /* MememojiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A8165C22E4D23200BF0781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A8166622E4D23300BF0781 /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4A8164122E4D0D400BF0781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4A8162822E4D0C300BF0781 /* Mememoji */;
+			targetProxy = B4A8164022E4D0D400BF0781 /* PBXContainerItemProxy */;
+		};
+		B4A8164C22E4D0D500BF0781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4A8162822E4D0C300BF0781 /* Mememoji */;
+			targetProxy = B4A8164B22E4D0D500BF0781 /* PBXContainerItemProxy */;
+		};
+		B4A8166E22E4D23500BF0781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4A8165F22E4D23200BF0781 /* Mememoji for iMessage */;
+			targetProxy = B4A8166D22E4D23500BF0781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4A8163222E4D0C400BF0781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A8163322E4D0C400BF0781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4A8163722E4D0D400BF0781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A8163822E4D0D400BF0781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B4A8166722E4D23300BF0781 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4A8166822E4D23300BF0781 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4A8165122E4D0D500BF0781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4A8165222E4D0D500BF0781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4A8165422E4D0D500BF0781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94N6493U2E;
+				INFOPLIST_FILE = Mememoji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simonxphillips.Mememoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4A8165522E4D0D500BF0781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94N6493U2E;
+				INFOPLIST_FILE = Mememoji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simonxphillips.Mememoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4A8165722E4D0D500BF0781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94N6493U2E;
+				INFOPLIST_FILE = MememojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simonxphillips.MememojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mememoji.app/Mememoji";
+			};
+			name = Debug;
+		};
+		B4A8165822E4D0D500BF0781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94N6493U2E;
+				INFOPLIST_FILE = MememojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simonxphillips.MememojiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mememoji.app/Mememoji";
+			};
+			name = Release;
+		};
+		B4A8165A22E4D0D500BF0781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94N6493U2E;
+				INFOPLIST_FILE = MememojiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simonxphillips.MememojiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mememoji;
+			};
+			name = Debug;
+		};
+		B4A8165B22E4D0D500BF0781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94N6493U2E;
+				INFOPLIST_FILE = MememojiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = simonxphillips.MememojiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mememoji;
+			};
+			name = Release;
+		};
+		B4A8167122E4D23500BF0781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94N6493U2E;
+				INFOPLIST_FILE = "Mememoji for iMessage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "simonxphillips.Mememoji.Mememoji-for-iMessage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4A8167222E4D23500BF0781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94N6493U2E;
+				INFOPLIST_FILE = "Mememoji for iMessage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "simonxphillips.Mememoji.Mememoji-for-iMessage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4A8162422E4D0C300BF0781 /* Build configuration list for PBXProject "Mememoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A8165122E4D0D500BF0781 /* Debug */,
+				B4A8165222E4D0D500BF0781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A8165322E4D0D500BF0781 /* Build configuration list for PBXNativeTarget "Mememoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A8165422E4D0D500BF0781 /* Debug */,
+				B4A8165522E4D0D500BF0781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A8165622E4D0D500BF0781 /* Build configuration list for PBXNativeTarget "MememojiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A8165722E4D0D500BF0781 /* Debug */,
+				B4A8165822E4D0D500BF0781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A8165922E4D0D500BF0781 /* Build configuration list for PBXNativeTarget "MememojiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A8165A22E4D0D500BF0781 /* Debug */,
+				B4A8165B22E4D0D500BF0781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A8167022E4D23500BF0781 /* Build configuration list for PBXNativeTarget "Mememoji for iMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A8167122E4D23500BF0781 /* Debug */,
+				B4A8167222E4D23500BF0781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4A8162122E4D0C300BF0781 /* Project object */;
+}
